@@ -10,7 +10,7 @@ const cors= require("cors")
 
 app.use(cors());
 app.use(express.json())
-// app.use("/signup",SignUpRoute)
+ 
 app.use("/auth",SignUpRoute)
 app.use("/product",ProdRoute)
 app.use("/cart",CartRoute)
