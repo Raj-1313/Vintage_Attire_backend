@@ -2,10 +2,10 @@ require("dotenv").config()
 const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 8080
-const connect= require('./config/db');
-const SignUpRoute=  require("./Routes/Auth.Route")
-const ProdRoute=  require("./Routes/Product.Route")
-const CartRoute=  require("./Routes/Cart.Route")
+const connect= require('./src/config/db');
+const SignUpRoute=  require("./src/Routes/Auth.Route")
+const ProdRoute=  require("./src/Routes/Product.Route")
+const CartRoute=  require("./src/Routes/Cart.Route")
 const cors= require("cors")
 
 app.use(cors());
