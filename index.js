@@ -8,6 +8,8 @@ const ProdRoute=  require("./src/Routes/Product.Route")
 const CartRoute=  require("./src/Routes/Cart.Route")
 const cors= require("cors")
 
+// all checked
+
 app.use(cors());
 app.use(express.json())
  
